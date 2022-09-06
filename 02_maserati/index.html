@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./style/common.css" type="text/css">
+    
+  
+    <title>MASERATI</title>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="inner">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="MASERATI">
+                </a>
+            </h1>
+            <nav class="nav">
+                <ul class="gnb clear">
+                    <li><a href="#">모델</a></li>
+                    <li>
+                        <a href="#">쇼핑</a>
+                        <ul class="lnb">
+                            <li><a href="#">구매</a></li>
+                            <li><a href="#">딜러찾기</a></li>
+                            <li><a href="#">뉴 마세라티 검색</a></li>
+                            <li><a href="#">중고 마세라티 검색</a></li>
+                            <li><a href="#">Models Catalogues</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">프로모션</a></li>
+                    <li><a href="#">오너쉽</a>
+                        <ul class="lnb">
+                            <li><a href="#">서비스지원</a></li>
+                            <li><a href="#">유지보수</a></li>
+                            <li><a href="#">연장보증</a></li>
+                            <li><a href="#">순정부품</a></li>
+                            <li><a href="#">긴급출동</a></li>
+                            <li><a href="#">마세라티 고객케어</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">뉴스</a></li>
+                    <li><a href="#">브랜드</a>
+                        <ul class="lnb">
+                            <li><a href="#">마세라티의 가치</a></li>
+                            <li><a href="#">마세라티의 역사</a></li>
+                            <li><a href="#">마세라티의 클래식카</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">인증중고차</a></li>
+                </ul>
+            </nav>
+            <div class="right_btn">
+                <a href="#" class="del">딜러찾기</a>
+                <a href="#" class="main_color">시승신청</a>
+            </div>
+            <div class="right_icon">
+                <a href="#">
+                    <span class="icon_search"></span>
+                </a>
+            </div>
+            </div>    
+        </header><!--header end-->
+
+        <div id="visual">
+                <div class="visual_wrap swiper mySwiper">
+                    <ul class="swiper-wrapper">
+                        <li class="visual_1 swiper-slide">
+                            <div class="visual_tit">
+                                <p class="visual_new">2022 NEW SUV</p>
+                                <h2 class="visual_txt">Grecale</h2>
+                            </div>
+                        </li>
+                        <li class="visual_2 swiper-slide">
+                            <div class="visual2_tit">
+                                <p>원하는 차를 찾고</p>
+                                <p>직접 시승해보세요!</p>
+                            </div>
+                            <div class="date">
+                                <form action="#">
+                                    <div class="pannel_block plan">
+                                        <label for="model" class="blind">model</label>
+                                        <select name="model" id="model">
+                                            <option value="m1">Levante</option>
+                                            <option value="m2">MC20</option>
+                                            <option value="m1">Grecale</option>
+                                            <option value="m1">Ghibli</option>
+                                        </select>
+                                    </div>
+                                    <div class="pannel_block plan">
+                                        <label for="day" class="blind">day</label>
+                                        <input type="text" id="day" readonly>
+                                    </div>
+                                    <div class="pannel_block v_btn">
+                                        <button type="submit" class="btn_ser">시승신청</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <li class="visual_3 swiper-slide">
+                            <div class="visual3_tit">
+                                <div class="vi_txt">
+                                    <p>Ghibli</p>
+                                </div>
+                                <div class="ghibli_view">
+                                    <a href="#">
+                                        <span>VIEW MORE</span>
+                                        <img src="./images/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="visual_4 swiper-slide">
+                            <div class="video_area">
+                                <video src="./images/maserati.mp4" loop muted autoplay  ></video>
+                                <!-- <iframe src="./images/maserati.mp4" frameborder="0" autoplay fullscreen width="100%"></iframe> -->
+                            </div>
+                        </li>
+                        <li class="visual_5 swiper-slide"></li>
+                    </ul>
+                    <div class="swiper-button-next vi_right">
+                        <img src="./images/arrow_r.png" alt="prev_arrow">
+                    </div>
+                    <div class="swiper-button-prev vi_left">
+                        <img src="./images/arrow_l.png" alt="next_arrow">
+                    </div>
+                    <div class="swiper-pagination"></div>     
+                </div>
+                <!-- <div class="visual_arrow">
+                    <span class="prev_arrow">
+                        <img src="./images/arrow_l.png" alt="prev_arrow">
+                    </span>
+                    <span class="next_arrow">
+                        <img src="./images/arrow_r.png" alt="next_arrow">
+                    </span>
+                </div> -->
+        </div>
+
+
+        <main id="content">
+            <section class="sec model"><!--1-->
+                <div class="model_top"></div>
+                <div class="inner">
+                    <h2>what is MODEL</h2>
+                    <div class="model_area swiper mySwiper">
+                        <ul class="model_list swiper-wrapper">
+                            <li class="swiper-slide">
+                                <p>MC20</p>
+                                <img src="./images/what_car.png" alt="MC20">
+                                <div class="btn_color">
+                                    <span class="color silver">
+                                        <i class="blind">silver</i>
+                                    </span>
+                                    <span class="color blue">
+                                        <i class="blind">blue</i>
+                                    </span>
+                                    <span class="color gray">
+                                        <i class="blind">gray</i>
+                                    </span>
+                                    <span class="color black">
+                                        <i class="blind">black</i>
+                                    </span>
+                                    <span class="color red">
+                                        <i class="blind">red</i>
+                                    </span>
+                                    <span class="color yellow">
+                                        <i class="blind">yellow</i>
+                                    </span>
+                                    </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <p>Levante</p>
+                                <img src="./images/what_car3.png" alt="Levante">
+                    
+                                <div class="btn_color">
+                                    <span class="color ivory">
+                                        <i class="blind">ivory</i>
+                                    </span>
+                                    <span class="color coolgray">
+                                        <i class="blind">coolgray</i>
+                                    </span>
+                                    <span class="color wormgray">
+                                        <i class="blind">wormgray</i>
+                                    </span>
+                                    <span class="color dkgray">
+                                        <i class="blind">dkgray</i>
+                                    </span>
+                                    <span class="color black">
+                                        <i class="blind">black</i>
+                                    </span>
+                                    <span class="color blue">
+                                        <i class="blind">blue</i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <p>Ghibli Trofeo</p>
+                                <img src="./images/what_car_g.png" alt="Ghibli Trofeo">
+                    
+                                <div class="btn_color">
+                                    <span class="color ivory">
+                                        <i class="blind">ivory</i>
+                                    </span>
+                                    <span class="color wormgray">
+                                        <i class="blind">wormgray</i>
+                                    </span>
+                                    <span class="color dkgray">
+                                        <i class="blind">dkgray</i>
+                                    </span>
+                                    <span class="color black">
+                                        <i class="blind">black</i>
+                                    </span>
+                                    <span class="color blue">
+                                        <i class="blind">blue</i>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <p>Quattroporte</p>
+                                <img src="./images/what_car_q.png" alt="Quattroporte">
+                    
+                                <div class="btn_color">
+                                    <span class="color ivory">
+                                        <i class="blind">ivory</i>
+                                    </span>
+                                    <span class="color wormgray">
+                                        <i class="blind">wormgray</i>
+                                    </span>
+                                    <span class="color dkgray">
+                                        <i class="blind">dkgray</i>
+                                    </span>
+                                    <span class="color black">
+                                        <i class="blind">black</i>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    <!-- <div class="model_arrow">
+                        <span class="prev_arrow_two">
+                            <img src="./images/arrow2-l.png" alt="prev_arrow_2">
+                        </span>
+                        <span class="next_arrow_two">
+                            <img src="./images/arrow2-r.png" alt="next_arrow_2">
+                        </span>
+                    </div> -->
+
+                        <div class="swiper-button-next mo_right">
+                            <img src="./images/arrow(color)-r.png" alt="right_btn">
+                        </div>
+                        <div class="swiper-button-prev mo_left">
+                            <img src="./images/arrow(color)-l.png" alt="left_btn">
+                        </div>
+                    </div>
+
+                    
+                    <div class="model_btn">
+                        <a href="#" class="turn">360 회전</a>
+                        <a href="#" class="mycar">내 차량 만들기</a>
+                        <a href="#" class="test">시승신청</a>
+                    </div>
+                </div>
+                <aside class="overlay_area">
+                    <div class="overlay">
+                        <div class="car_pic">
+                            <!-- <img src="./images/levante360/1.jpg" alt=""> -->
+                            <div class="car"></div>
+                        </div>
+                        <!-- <span class="close">X</span> -->
+                    </div>
+                </aside>
+                </section>
+
+                <section class="sec service"><!--2-->
+                <div class="inner">
+                    <h2 class="blind">Car Service</h2>
+                    <p>We Provide<br>
+                        Car Service</p>
+                    <div class="more_btn">
+                         <a href="#" class="btn_more">VIEW MORE</a>
+                    </div>
+                    <div class="service_icon">
+                        <span class="car_icon"><a href="#"></a></span>
+                        <span class="fix_icon"><a href="#"></a></span>
+                        <span class="list_icon"><a href="#"></a></span>
+                        <span class="card_icon"><a href="#"></a></span>
+                    </div>
+                </div>
+                </section>
+                <section class="sec new"><!--3--->
+                <div class="inner">
+                    <h2>2022 NEW</h2>
+                    <ul class="new2022 clear">
+                        <li>
+                            <a href="#" class="car1">
+                                <img src="./images/2022new_1.jpg" alt="Quattroporte">
+                                <div class="mask">
+                                    <h3>Quattroporte</h3>
+                                    <p>AN ICON OF ITALIAN ELEGANCE</p>
+                                    <p>세련된 퍼포먼스와 럭셔리함의 매혹적인 만남</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="car2">
+                                <img src="./images/2022new_2.jpg" alt="Levante">
+                                <div class="mask">
+                                    <h3>Levante</h3>
+                                    <p>THE MASERATI OF SUV</p>
+                                    <p>강력한 온로드-오프로드 성능 </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="car3">
+                                <img src="./images/2022new_3.jpg" alt="Ghibli">
+                                <div class="mask">
+                                    <h3>Ghibli</h3>
+                                    <p>YOU'RE NOT LIKE EVERYONE ELSE</p>
+                                    <p>스타일, 파워, 스포티한 핸들링, 컴포트의 완벽한 조화</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>  
+                </section>
+                <section class="sec world"><!--4-->
+                    <div class="inner">
+                    <h2>The world of Maserati</h2>
+                    <ul class="world_more clear">
+                        <li class="world1">
+                            <a href="#">
+                                <img src="./images/content4_01.jpg" alt="마세라티 BORA 50주년">
+                                <div class="mask">
+                                    <p>마세라티<br>BORA 50주년</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="world3">
+                            <a href="#">
+                                <img src="./images/content4_02.jpg" alt="MVP PROMOTION">
+                                <div class="mask">
+                                    <p>MVP<br>PROMOTION</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="world3">
+                            <a href="#">
+                                <img src="./images/content4_03.jpg" alt="무상점검 서비스">
+                                <div class="mask">
+                                    <p>무상점검<br>서비스</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="world4">
+                            <a href="#">
+                                <img src="./images/content4_04.jpg" alt="Maserati Store">
+                                <div class="mask">
+                                    <p>Maserati<br>Store</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </section>
+            </div>
+        </main>
+
+
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_menu">
+                    <ul class="footer_list">
+                        <li>
+                            <a href="#"><strong>MODELS</strong>
+                                <ul class="sp">
+                                    <li>Ghibli</li>
+                                    <li>Levante</li>
+                                    <li>Quattroporte</li>
+                                    <li>MC20</li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><strong>서비스</strong>
+                                <ul class="sp">
+                                    <li>딜러찾기</li>
+                                    <li>내 차량 만들기</li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><strong>문의하기</strong>
+                                <ul class="sp">
+                                    <li>네이버 포스트</li>
+                                    <li>뉴스</li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><strong>개인정보처리방침</strong>
+                                <ul class="sp">
+                                    <li>영상정보 처리기기 운영관리방침</li>
+                                    <li>쿠키설정</li>
+                                </ul>
+                             </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer_search">
+                    <form>
+                        <fieldset>
+                            <legend class="blind">검색</legend>
+                            <div class="box_search">
+                            <input type="text" title="검색어입력" placeholder="검색어를 입력하세요">
+                            <button type="button" class="btn_search">
+                                <span>SEARTH</span>
+                                <!-- <img src="./images/search_lcon.svg" alt="검색"> -->
+                            </button>
+                        </div>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="footer_social">
+                    <a href="#">
+                        <span class="blind">페이스북</span>
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <span class="blind">인스타그램</span>
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <span class="blind">유튜브</span>
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+
+                <p class="cpr">&copy;2022 Stellantis. MASERATI All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="./js/jquery.mousewheel.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
